@@ -20,9 +20,8 @@
       padding: 50px;
       margin: 30px;
 
-
-    }
-    input[type=text],input[type=number],input[type=date], select {
+      }
+      input[type=text],input[type=number],input[type=date], select {
       width: 100%;
       padding: 12px 20px;
       margin: 8px 0;
@@ -32,7 +31,7 @@
       box-sizing: border-box;
     }
 
-    input[type=submit] {
+      input[type=submit] {
       width: 100%;
       background-color: #4CAF50;
       color: white;
@@ -43,12 +42,12 @@
       cursor: pointer;
     }
 
-    input[type=submit]:hover {
+      input[type=submit]:hover {
       background-color: #45a049;
     }
 
      .show {
-          width: 100%;
+          width: 90%;
           background-color: #4CAF50;
           color: white;
           padding: 10px 20px;
@@ -56,6 +55,7 @@
           border: none;
           border-radius: 4px;
           cursor: pointer;
+          margin-left:10%;
         }
 
         .show:hover {
@@ -65,8 +65,6 @@
 </style>
 </head>
 <body>
-
-
 
 <div class="formbody">
     <h2 class="title">Expense Manager<h2>
@@ -96,12 +94,8 @@
 
      <input type="submit" value="Submit" />
 
-
-
-
-
-
 </form>
+
 <div>
        <button type="show" value="show" class="show" onclick="goToHome()">Show</button>
                 <script>
@@ -109,11 +103,7 @@
                         window.location.href = "display.jsp";
                     }
                 </script>
-                </div>
-
-
-
 </div>
-
+</div>
 </body>
 </html>

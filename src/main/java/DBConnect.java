@@ -7,8 +7,6 @@ public class DBConnect {
         String user = "root";
         String password = "";
 
-        // Connect to the database
-
         {
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
